@@ -1153,7 +1153,7 @@ Specifies the database to which you are granting access.
 
 Specifies comma-separated list of privileges to grant. 
 
-Valid options: 'ALL', 'CREATE', 'CONNECT', 'TEMPORARY', 'TEMP'.
+Valid options: 'ALL', 'CREATE', 'CONNECT', 'SELECT', 'TEMPORARY', 'TEMP'.
 
 ##### `psql_db`
 

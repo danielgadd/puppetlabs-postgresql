@@ -75,6 +75,7 @@ define postgresql::server::grant (
           '^CONNECT$',
           '^CREATE$',
           '^TEMP$',
+          '^SELECT$',
           '^TEMPORARY$'
         ]                => $_privilege,
         default          => fail('Illegal value for $privilege parameter'),
